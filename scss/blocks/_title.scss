@@ -1,0 +1,14 @@
+.title{
+    font-size: 2.2rem;
+    color: #ffff;
+    font-weight: 400;
+    &__fz-70{
+        font-size: 70px;
+        span{
+            font-weight: 700;
+        }
+    }
+    &__fz-15{
+        font-size: 15px;
+    }
+}

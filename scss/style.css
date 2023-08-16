@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #191919;
+  padding: 43px 80px 116px 80px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1350px;
+  padding-bottom: 83px;
+}
+.header__logo {
+  width: 160px;
+  height: 32px;
+}
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 395px;
+}
+.header ul li {
+  list-style-type: none;
+  color: white;
+  font-size: 17px;
+}
+.header ul li span {
+  color: #118DA8;
+}
+
+.title {
+  font-size: 2.2rem;
+  color: white;
+  font-weight: 400;
+}
+.title__fz-70 {
+  font-size: 70px;
+}
+.title__fz-70 span {
+  font-weight: 700;
+}
+.title__fz-15 {
+  font-size: 15px;
+}
+
+.podcast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1250px;
+}
+.podcast__block {
+  width: 500px;
+}
+.podcast__block_icon {
+  margin-top: 7.4rem;
+}/*# sourceMappingURL=style.css.map */
