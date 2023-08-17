@@ -50,6 +50,16 @@ body {
 .title__fz-15 {
   font-size: 15px;
 }
+.title__fz-15 span {
+  color: #118DA8;
+  font-size: 18px;
+}
+.title__fz-65 {
+  font-size: 65px;
+}
+.title__fz-22 {
+  font-size: 22px;
+}
 
 .podcast {
   display: flex;
@@ -62,4 +72,21 @@ body {
 }
 .podcast__block_icon {
   margin-top: 7.4rem;
+}
+
+.jacob {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.jacob__block_text-arrow {
+  background-color: #118DA8;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.jacob__block_text-arrow img {
+  width: 38px;
+  height: 71px;
 }/*# sourceMappingURL=style.css.map */
